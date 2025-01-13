@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ABDULAHAD118/URL-Shortener#readme",
+  "bugs": {
+    "url": "https://github.com/ABDULAHAD118/URL-Shortener/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABDULAHAD118/URL-Shortener.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.4",
+    "nanoid": "^5.0.9",
+    "nodemon": "^3.1.9"
+  }
+}
